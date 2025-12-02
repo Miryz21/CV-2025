@@ -18,14 +18,15 @@ T(x,y) = μ(x,y) - C
 ### Методы вычисления локального порога
 
 1. Mean (усреднение):
-1. Mean (усреднение):
 $$
-\mu(x,y) = \frac{1}{(2k+1)^2} \sum_{i=-k}^{k} \sum_{j=-k}^{j} I(x+i, y+j)
+
+\mu(x,y) = \frac{1}{(2k+1)^2} \sum_{i=-k}^{k} \sum_{j=-k}^{k} I(x+i, y+j), \text{ где } 2k+1 \text{ - размер блока}
+
 $$
 
 2. Gaussian (взвешенное усреднение):
 $$
-\mu(x,y) = \frac{\sum_{i=-k}^{k} \sum_{j=-k}^{k} I(x+i, y+j) \cdot G(i,j)}{\sum_{i=-k}^{k} \sum_{j=-k}^{k} G(i,j)}
+\mu(x,y) = \sum_{i=-k}^{k} \sum_{j=-k}^{k} I(x+i, y+j) \cdot G(i+k,j+k), \text{ где } 2k+1 \text{ - размер блока}
 $$
 
 где G(i,j) - гауссово ядро
