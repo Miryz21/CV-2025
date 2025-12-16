@@ -86,10 +86,10 @@
 ![Диаграмма последовательности алгоритма трекинга](./images/tracking_diagram.svg)
 
 ### Артефакты
-- Видео с результатами трекинга:
-[mona lisa](https://disk.yandex.ru/i/7lOWtsoKln5xfg)
+Видео с результатами трекинга:
 
-[book](https://disk.yandex.ru/i/8AWmZoSHPh694g)
+- [mona lisa](https://disk.yandex.ru/i/7lOWtsoKln5xfg)
+- [book](https://disk.yandex.ru/i/8AWmZoSHPh694g)
 
 
 ### Результаты
