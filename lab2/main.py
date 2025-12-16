@@ -1,5 +1,5 @@
 import argparse
-from tracker import VideoTracker
+from src.tracker import VideoTracker
 
 
 def main():
